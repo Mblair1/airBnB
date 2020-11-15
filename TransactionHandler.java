@@ -3,7 +3,7 @@ package airBnB;
 public class TransactionHandler implements Transaction {
 	private static TransactionHandler INSTANCE = new TransactionHandler();
 	
-	private TransactionHandler() {
+	public TransactionHandler() {
 		
 	}
 	public static TransactionHandler getInstance() {
